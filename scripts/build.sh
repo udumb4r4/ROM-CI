@@ -13,7 +13,7 @@ ccache -M 50G
 ccache -o compression=true
 ccache -z
 $EXTRACMD
-$TARGET -j$(nproc --all) || curl --upload-file ./out/error.log https://free.keep.sh > link.txt && cat link.txt
+$TARGET || curl --upload-file ./out/error.log https://free.keep.sh > link.txt && cat link.txt
 }
 echo "Initializing Build System"
 build
