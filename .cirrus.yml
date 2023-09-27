@@ -8,7 +8,7 @@ env:
     TARGET: mka bacon #Enter target example- m bacon, make bacon , mka bacon,etc...
     F: ci:ci #Your Gdrive Folder Path which u have set in rclone
     E: ENCRYPTED[9ae7cbda659d9e2f3f3f38f26aaa820c87faa6f573bf73493f30395da502340c34b652d0140459e5c310ea6b015a415d] #Encrypted id which u obtained from cirrusci after encrypting your rclone values
-    LINK: #https://sourceforge.net/projects/fleur/files/ccache/Superior/ccache.tar.gz/download #Enter ccache link if u already have for any rom, if u dont have one, put ### in the field
+    LINK: https://sourceforge.net/projects/fleur/files/ccache/Superior/ccache.tar.gz/download #Enter ccache link if u already have for any rom, if u dont have one, put ### in the field
 
 # DONT MODIFY FROM HERE #
 task:
