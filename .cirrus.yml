@@ -15,7 +15,7 @@ task:
   name: "AOSP"
   timeout_in: 120m
   container:
-      image: apon77/aosp:cirrus
+      image: shazuxdd/ubuntu:latest
       cpu: 8
       memory: 32G
   Setup_script:
