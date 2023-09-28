@@ -17,7 +17,7 @@ task:
   container:
       image: shazuxdd/ubuntu:latest
       cpu: 8
-      memory: 32G
+      memory: 24G
   Setup_script:
       - ./scripts/setup.sh || source scripts/setup.sh
   Sync_script:
