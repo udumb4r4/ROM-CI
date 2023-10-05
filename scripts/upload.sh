@@ -10,7 +10,7 @@ compress() {
 time tar --use-compress-program="pigz -k -$2 " -cf $1.tar.gz $1 ccache 1
 }
 echo "Compressing New CCACHE"
-compress
+time compress ccache 1
 
 uccache() {
 mkdir -p ~/.config/rclone
@@ -22,8 +22,9 @@ uccache
 
 rom_upload() {
 cd ~/
-curl --upload-file ./out/target/product/$DEVICE/Sup*.zip https://free.keep.sh > link0.txt && cat link0.txt
+curl --upload-file ./out/target/product/$DEVICE/S*.zip https://free.keep.sh > link0.txt && cat link0.txt
 curl --upload-file ./out/target/product/$DEVICE/boot.img https://free.keep.sh > link1.txt && cat link1.txt
 }
 echo "Uploading Rom & Boot From /Out"
 rom_upload
+
