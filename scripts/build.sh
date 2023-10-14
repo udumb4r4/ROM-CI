@@ -1,7 +1,7 @@
 #!/bin/bash
 build() {
 source build/envsetup.sh || . build/envsetup.sh
-bash device/xiaomi/fleur/prebuilts/vendor.sh
+bash device/xiaomi/viva/prebuilts/vendor.sh
 lunch $MAKEFILENAME-$VARIENT
 export CCACHE_DIR=/tmp/ccache
 export CCACHE_EXEC=$(which ccache)
