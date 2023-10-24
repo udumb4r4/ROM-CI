@@ -2,7 +2,7 @@ env:
     DEVICE: viva
     ROMREPO: https://github.com/LineageOS/android.git -b lineage-20.0 --git-lfs
     LOCALMANIFEST: https://github.com/EF-StRM/local_manifests.git
-    MAKEFILENAME: lineage-20-viva
+    MAKEFILENAME: lineage-viva
     VARIENT: userdebug
     EXTRACMD:
     TARGET: brunch
