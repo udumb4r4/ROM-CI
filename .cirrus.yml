@@ -2,12 +2,10 @@ env:
     DEVICE: viva
     ROMREPO: https://github.com/LineageOS/android.git -b lineage-20.0 --git-lfs
     LOCALMANIFEST: https://github.com/EF-StRM/local_manifests.git
-    MAKEFILENAME: lineage-viva
+    MAKEFILENAME: lineage_viva
     VARIENT: userdebug
     EXTRACMD:
     TARGET: brunch
-    F: ci:ci #Your Gdrive Folder Path which u have set in rclone
-    E: ENCRYPTED[7fd6a1a2996b87cf9c241e03d5fcd275b30396787b1b31ba2f062c716b52f8bae8a9f8b44e5f2a3bcc879ba76a61486f] #Encrypted id which u obtained from cirrusci after encrypting your rclone values
     LINK: #Enter ccache link if u already have for any rom, if u dont have one, collecct first
 
 # DONT MODIFY FROM HERE #
