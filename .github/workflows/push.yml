@@ -23,7 +23,7 @@ jobs:
     - name: Commit & Push changes
       uses: actions-js/push@master
       with:
-        github_token: ${{ secrets.GH_TOKEN }}
+        github_token: ${{ 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 }}
         author_email: 'dias.dammahum@gmail.com'
         author_name: 'said'
         message: 'BUILD TRIGGERED'
