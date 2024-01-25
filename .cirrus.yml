@@ -1,6 +1,6 @@
 env:
     DEVICE: viva
-    ROMREPO: https://github.com/LineageOS/android.git -b lineage-20.0 --git-lfs
+    ROMREPO: https://github.com/LineageOS/android.git -b lineage-18.1 --git-lfs
     LOCALMANIFEST: https://github.com/EF-StRM/local_manifests.git
     MAKEFILENAME: lineage_viva
     VARIENT: userdebug
